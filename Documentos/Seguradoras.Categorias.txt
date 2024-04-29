@@ -1,0 +1,43 @@
+*Correção de erros ortográficos*
+
+Categorias de Seguro
+
+1-Automóvel
+2-Acidente de Trabalho
+3-Saúde
+4-Incêndio 
+5-Garantias 
+6-Responsabilidade Civil
+7-Recheio
+8-Equipamento Electronico
+9-Todos riscos para Equip. Electrónico Portátil
+10-Seguro de Vida
+11-Seguro de Saude
+12-Viagens
+13-Acidentes Pessoias
+14-Despesas de Funeral
+15-Maquinas Cascos
+16-Transporte de Mercadorias
+17-Multiriscos
+
+_______________________________________________________
+
+Novas Categorias de Seguro
+
+1-Automóvel
+2-Acidente de Trabalho
+3-Saúde
+4-Incêndio 
+5-Garantias 
+6-Responsabilidade Civil
+7-Recheio
+8-Equipamento Electronico
+9-Todos riscos para Equipamento Electrónico Portátil
+10-Seguro de Vida
+11-Viagens
+12-Acidentes Pessoais
+13-Despesas de Funeral
+14-Maquinas Cascos
+15-Transporte de Mercadorias
+16-Multiriscos
+

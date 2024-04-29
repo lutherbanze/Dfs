@@ -1,0 +1,159 @@
+ Codigos funcionais
+
+ =IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Acidente de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Automóvel"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Incêndio"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Multiriscos"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Transporte de mercadorias"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Responsabilidade Civil"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Emose", [Categoria de Seguro] = "Equipamento Eletronico"), 0.15 * [Prémio/ Valor do Recibo],
+ "")))))))
+
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Acidente de Trabalho"), 0.25 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Viagem "), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Saúde"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Automovel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Incêndio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Transporte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Fidelidade/Impar", [Categoria de Seguro] = "Responsabilidade Civil"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))))
+
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Automóvel"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Garantias"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Incêndio"), 0.15 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Equipamento Electronico"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Palma", [Categoria de Seguro] = "Responsabilidade Civil"), 0.20 * [Prémio/ Valor do Recibo],
+ "")))))))
+
+
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Recheio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Equipamento Electronico"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Garantias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Indico Seguros", [Categoria de Seguro] = "Responsabilidade Civil"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))))
+
+
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Incêndio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Garantias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Imperial", [Categoria de Seguro] = "Saúde"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Global Alliance", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+  "")))))))
+
+   IF(AND([Seguradora] = "Mocambique Companhia de Seguros", [Categoria de Seguro] = "Acidente de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Mocambique Companhia de Seguros", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Mocambique Companhia de Seguros", [Categoria de Seguro] = "Incêndio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Mocambique Companhia de Seguros", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Mocambique Companhia de Seguros", [Categoria de Seguro] = "Saúde"), 0.20 * [Prémio/ Valor do Recibo],
+ "")))))
+
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Hollard", [Categoria de Seguro] = "Acidentes de Trabalho"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))))
+
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Dimond", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Arko", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Prime", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Medi Plus", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Austral Seguros", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "MCS", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Safeline", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Britam", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "Automóvel"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "Incendio"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "riscos"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "Seguro de Vida"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "Transposte de Mercadorias"), 0.20 * [Prémio/ Valor do Recibo],
+   IF(AND([Seguradora] = "Momentum", [Categoria de Seguro] = "Multiriscos"), 0.20 * [Prémio/ Valor do Recibo],
+ ""))))))
+
+
+
+TOTAL: 17 GRUUPOS DE CODIGOS
+
+
+
+
+
+   
+")))))))))))))))))))))))))))))))))))))))))))))))
