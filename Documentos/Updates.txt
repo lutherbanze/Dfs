@@ -1,0 +1,39 @@
+Implementar
+
+1. Novo campo para prêmio simples:
+
+Descrição: Incluir um novo campo para o prêmio simples, que servirá como base para o cálculo das comissões das seguradoras.
+
+2. Geração de documentos PDF:
+
+Descrição melhorada: Implementar um sistema automatizado para gerar documentos PDF em diferentes etapas do processo de renovação da apólice.
+    * 45 dias antes da data de vencimento:
+    * 30 dias antes da data de vencimento: 
+    * 15 dias antes da data de vencimento: 
+    * Na data de vencimento: 
+
+3. Alerta para processos próximos da renovação:
+
+Descrição melhorada: Implementar alertas no sistema para destacar os processos de apólices que estão próximos da data de renovação. Isso ajudará os usuários a identificar rapidamente as apólices que precisam de atenção e tomar as medidas necessárias para garantir a renovação em tempo hábil."
+
+4. Adição de números das contas bancárias das seguradoras:
+
+
+Descrição melhorada: Incluir um campo na base de dados para armazenar os números das contas bancárias das seguradoras. Essa informação será utilizada para anexar os dados bancários corretos no documento/recibo da apólice, facilitando o pagamento para os clientes."
+
+5. Correção no campos da atualização de dados:
+
+Descrição melhorada: Implementar um mecanismo para buscar automaticamente os dados do cliente ref, buscar os dados dos campos 'prêmio da apólice', 'prêmio valor do recibo' e 'prêmio simples'. Isso garantirá que os dados estejam sempre precisos e atualizados, evitando divergências e erros de cálculo."
+
+6. Substituição do conteúdo do "período coberto" nos documentos:
+
+Descrição melhorada: Substituir o conteúdo do 'período coberto' nos documentos gerados, da apólice. Por exemplo, para uma apólice trimestral com vigência de 20/01/2024 a 20/04/2024, o documento deve apresentar o texto 'Período Coberto: 20/01/2024 - 20/04/2024'."
+
+7. Adição do campo "renovação:
+
+Descrição melhorada: Incluir um campo na base de dados para armazenar informações sobre a renovação da apólice, como data de vencimento, status da renovação (pendente, em andamento, renovada, cancelada)
+
+8. Filtrar do valor das comissões por período:
+
+Descrição: Implementar uma funcionalidade de filtro para permitir a pesquisa e visualização do valor das comissões por um período de tempo específico.
+
